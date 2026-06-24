@@ -233,9 +233,9 @@
   .msg.bot code { background: #1e1e1e; padding: 1px 5px; border-radius: 3px; font-size: 12px; color: #88c0d0; }
 
 
-    color: #444;
+  /* {  color: #444;
     font-style: italic;
-  }
+  } */
 
   .msg.error {
     color: #f87171;
@@ -443,7 +443,7 @@
     } catch (err) {
       uploadingIndicator.classList.remove('active');
       statusText.textContent = 'upload failed';
-      addErrorMsg('Could not connect to backend. Make sure the server is running on port 8000.');
+      addErrorMsg('Could not connect to backend. Make sure the server is running ');
     }
   });
 
